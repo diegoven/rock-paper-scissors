@@ -11,13 +11,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
     <title>rock - paper - scissors</title>
   </head>
   <body>
     <div class="scoreboard">
       <p>YOU</p>
       <div class="score">
-        <span class="user-score">00</span>:<span class="cpu-score">00</span>
+        <span class="user-score">0</span>:<span class="cpu-score">0</span>
       </div>
       <p>CPU</p>
     </div>
@@ -25,9 +26,9 @@
     <p class="result">Pick a hand!</p>
 
     <div class="options">
-      <button class="option">✊🏽</button>
-      <button class="option">✋🏽</button>
-      <button class="option">✌🏽</button>
+      <button id="rock" class="option">✊🏽</button>
+      <button id="paper" class="option">✋🏽</button>
+      <button id="scissors" class="option">✌🏽</button>
     </div>
   </body>
 </html>
